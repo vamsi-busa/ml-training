@@ -1,0 +1,1104 @@
+Script started on 2023-04-11 11:03:13+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="35"]
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# exit
+[?2004lexit
+
+Script done on 2023-04-11 11:03:16+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-04-11 11:07:27+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="35"]
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004lmy_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ks
+[?2004lks: command not found
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# pwd
+[?2004l/root
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004lmy_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls -F
+[?2004lmy_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls --help
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004lmy_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# whoiam
+[?2004lwhoiam: command not found
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# whoiam[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-04-11 11:09:56+05:30 [COMMAND_EXIT_CODE="127"]
+Script started on 2023-04-11 11:09:59+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="49" LINES="31"]
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# su
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# wo[Khoami
+[?2004lroot
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# /
+[?2004lbash: /: Is a directory
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004lmy_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# /users/
+[?2004lbash: /users/: No such file or directory
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# /users/[K
+[?2004lbash: /users: No such file or directory
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ./isers[K[K[K[K[Ky[Kusers
+[?2004lbash: ./users: No such file or directory
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# man ls
+[?2004l[?1049h[22;0;0t[?1h=LS(1)            User Commands            LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the[m
+       current directory by default).  Sort en‐[m
+       tries  alphabetically  if none of [1m-cftu‐[0m[m
+       [1mvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options  are[m
+       mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do  not  ignore  entries starting[m
+              with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each[m
+              file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print  C-style  escapes  for non‐[m
+[7mge ls(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+LS(1)            User Commands            LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the[m
+       current directory by default).  Sort en‐[m
+       tries  alphabetically  if none of [1m-cftu‐[0m[m
+       [1mvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options  are[m
+       mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do  not  ignore  entries starting[m
+              with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each[m
+              file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print  C-style  escapes  for non‐[m
+              graphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K:[K11[K[K[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K [K::[Kqq[K[?1l>[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# 
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# ls --j[Khelp
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# ls --help\[K
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# man ls
+[?2004l[?1049h[22;0;0t[?1h=LS(1)            User Commands            LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about  the FILEs (the[m
+       current directory by default).  Sort en‐[m
+       tries  alphabetically  if none of [1m-cftu‐[0m[m
+       [1mvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options  are[m
+       mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do  not  ignore  entries starting[m
+              with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each[m
+              file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print  C-style  escapes  for non‐[m
+[7mge ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# pew[Kw[K[Kwd
+[?2004l/root
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# mkdir exerco[Kide[K[Kse-data/writing
+[?2004lmkdir: cannot create directory ‘exercise-data/writing’: No such file or directory
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# mkdir exercise-data/writing[K[K[K[K[K[K[K[K
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# mkdir wriritn
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# rm -rf wriritn/
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004l[0m[01;34mexercise-data[0m  my_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# cd exercise-data/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# mkdir wriritng[K[K[K[K[K[Kiting
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls -F
+[?2004l[0m[01;34mwriting[0m/
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004l[0m[01;34mexercise-data[0m  my_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# cd exercise-data/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# mkdir tge=[K[K[Khess[Kis
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls -F
+[?2004l[0m[01;34mthesis[0m/  [01;34mwriting[0m/
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd thesis
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/thesisroot@TIGER03680:~/exercise-data/thesis# nano draf t.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;19H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2        draft.txt                  [1;48H(B[m[30d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[31d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste[2d[?12l[?25h[?25l[?12l[?25h[?25l[?1h=[?1h=[31d[J[1;48H[29d[K[30d[K[31;14H(B[0;7m[ Help mode disabled ](B[m[?12l[?25h[2d[?25l[1;33H(B[0;7m*[48G(B[m[3d[?12l[?25h[?25l[?12l[?25h[?25l[31;13H(B[0;7m[ Recording a macro... ](B[m[1;46H(B[0;7mR (B[m[?12l[?25h[3d[?25l[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[4d[?12l[?25h[?25l[?12l[?25hq[?25l[?12l[?25hq[?25l[?12l[?25hq[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[31d(B[0;7mSearch [Backwards]:                             [?7l [?7h[31;21H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;35r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J[?2004h[?1h=[?1h=(B[0;7m  GNU nano 6.2                                                        draft.txt *                                                           R   [1;143H(B[m[?25l[3dwq![4dqqqq[35d(B[0;7mSearch [Backwards]:                                                                                                                            [?7l [?7h[35;21H(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mb(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;31r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 6.2                                   [3;1H(B[mwq![4dqqqq[H[?2004h[?1h=[?1h=[1;23H(B[0;7mdraft.txt *[46GR (B[m[?25l[31dScript started on 2023-04-12 10:44:31+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="110" LINES="26"]
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# whoami
+[?2004lroot
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# [K]0;root@TIGER03680: ~root@TIGER03680:~# hea[K[K[Kcd exercise-data/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv  final.txt   numbers.txt  [0m[01;34mwriting[0m
+cubane.pdb   length.txt  [01;34mthesis[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi basilisk.dat
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"basilisk.dat" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;13H[K[26;52H0,1[11CAll[1;1H[?25h[?25lV[26;52H1,2[1;2H[?25h[?25la[26;54H3[1;3H[?25h[?25lm[26;54H4[1;4H[?25h[?25ls[26;54H5[1;5H[?25h[?25li[26;54H6[1;6H[?25h[?25l[2;1H[K[26;52H2,1[2;1H[?25h[?25lK[26;54H2[2;2H[?25h[?25lr[26;54H3[2;3H[?25h[?25l[2;2H[K[26;54H2[2;2H[?25h[?25le[26;54H3[2;3H[?25h[?25li[26;54H4[2;4H[?25h[?25ls[26;54H5[2;5H[?25h[?25lh[26;54H6[2;6H[?25h[?25l[2;5H[K[26;54H5[2;5H[?25h[?25l[2;4H[K[26;54H4[2;4H[?25h[?25l[2;3H[K[26;54H3[2;3H[?25h[?25l[2;2H[K[26;54H2[2;2H[?25h[?25lr[26;54H3[2;3H[?25h[?25li[26;54H4[2;4H[?25h[?25ls[26;54H5[2;5H[?25h[?25lh[26;54H6[2;6H[?25h[?25ln[26;54H7[2;7H[?25h[?25la[26;54H8[2;8H[?25h[?25l[3;1H[K[26;52H3,1[3;1H[?25h[?25lB[26;54H2[3;2H[?25h[?25lu[26;54H3[3;3H[?25h[?25ls[26;54H4[3;4H[?25h[?25la[26;54H5[3;5H[?25h[?25l`[26;54H6[3;6H[?25h[?25l[3;5H[K[26;54H5[3;5H[?25h[26;1H[K[3;4H[?25l[26;42H^[[3;4H[26;42H  [3;5H[26;52H3,4[11CAll[3;4H[?25h[?25l[26;42H:[3;4H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"basilisk.dat" [New] 3L, 19B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# head -n 5 basilisk.dat 
+[?2004lVamsi
+Krishna
+Busa
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi forloop.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"forloop.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H#[1;1H[26;1H[97m[41mE348: No string under cursor[m[26;42H[K[1;1H[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;13H[K[26;52H0,1[11CAll[1;1H[?25h[?25l[34m#[m[26;52H1,2[1;2H[?25h[?25l[34m![m[26;54H3[1;3H[?25h[?25l[34m/[m[26;54H4[1;4H[?25h[?25l[34mv[m[26;54H5[1;5H[?25h[?25l[1;4H[K[26;54H4[1;4H[?25h[?25l[34mb[m[26;54H5[1;5H[?25h[?25l[34mi[m[26;54H6[1;6H[?25h[?25l[34mn[m[26;54H7[1;7H[?25h[?25l[34m/[m[26;54H8[1;8H[?25h[?25l[34mb[m[26;54H9[1;9H[?25h[?25l[34ma[m[26;54H10[1;10H[?25h[?25l[34ms[m[26;55H1[1;11H[?25h[?25l[34mh[m[26;55H2[1;12H[?25h[?25l[2;1H[K[26;52H2,1 [2;1H[?25h[?25lf[26;54H2[2;2H[?25h[?25lo[26;54H3[2;3H[?25h[?25l[38;5;130mfor[m[26;54H4[2;4H[?25h[?25l[26;54H5[2;5H[?25h[?25lt[26;54H6[2;6H[?25h[?25lh[26;54H7[2;7H[?25h[?25li[26;54H8[2;8H[?25h[?25ln[26;54H9[2;9H[?25h[?25lg[26;54H10[2;10H[?25h[?25l[2;9H[K[26;54H9 [2;9H[?25h[?25l[2;8H[K[26;54H8[2;8H[?25h[?25l[2;7H[K[26;54H7[2;7H[?25h[?25l[2;6H[K[26;54H6[2;6H[?25h[?25l[2;5H[K[26;54H5[2;5H[?25h[?25lf[26;54H6[2;6H[?25h[?25l[97m[101mfi[m[26;54H7[2;7H[?25h[?25lfil[26;54H8[2;8H[?25h[?25le[26;54H9[2;9H[?25h[?25ln[26;54H10[2;10H[?25h[?25la[26;55H1[2;11H[?25h[?25lm[26;55H2[2;12H[?25h[?25le[26;55H3[2;13H[?25h[?25l[26;55H4[2;14H[?25h[?25li[26;55H5[2;15H[?25h[?25l[38;5;130min[m[26;55H6[2;16H[?25h[?25l[26;55H7[2;17H[?25h[?25lb[26;55H8[2;18H[?25h[?25la[26;55H9[2;19H[?25h[?25ls[26;54H20[2;20H[?25h[?25li[26;55H1[2;21H[?25h[?25ll[26;55H2[2;22H[?25h[?25li[26;55H3[2;23H[?25h[?25ls[26;55H4[2;24H[?25h[?25lk[26;55H5[2;25H[?25h[?25l.[26;55H6[2;26H[?25h[?25ld[26;55H7[2;27H[?25h[?25la[26;55H8[2;28H[?25h[?25lt[26;55H9[2;29H[?25h[?25l
+        [3;9H[K[26;52H3,2-9[3;9H[?25h[?25l[26;54H1  [3;1H[?25h[?25l[26;54H2[3;2H[?25h[?25l[26;54H1[3;1H[?25h[?25ld[26;54H2[3;2H[?25h[?25l[38;5;130mdo[m[26;54H3[3;3H[?25h[?25l[26;54H4[3;4H[?25h[?25l
+        [4;9H[K[26;52H4,2-9[4;9H[?25h[?25l[26;54H1  [4;1H[?25h[?25l[94m~                                                                    [m[26;52H3,4[3;4H[?25h[?25l[26;54H5[3;5H[?25h[?25l
+        [4;9H[K[26;52H4,2-9[4;9H[?25h[?25le[26;54H3-10[4;10H[?25h[?25lc[26;54H4-11[4;11H[?25h[?25lh[26;54H5-12[4;12H[?25h[?25l[38;5;130mecho[m[26;54H6-13[4;13H[?25h[?25l[31m [m[26;54H7-14[4;14H[?25h[?25l[31m$[m[26;54H8-15[4;15H[?25h[?25l[35m$f[m[26;54H9-16[4;16H[?25h[?25l[35mi[m[26;54H10-17[4;17H[?25h[?25l[35ml[m[26;55H1-18[4;18H[?25h[?25l[35me[m[26;55H2-19[4;19H[?25h[?25l[35mn[m[26;55H3-20[4;20H[?25h[?25l[35ma[m[26;55H4-21[4;21H[?25h[?25l[35mm[m[26;55H5-22[4;22H[?25h[?25l[35me[m[26;55H6-23[4;23H[?25h[?25l
+        [5;9H[K[26;52H5,2-9  [5;9H[?25h[?25lh[26;54H3-10[5;10H[?25h[?25le[26;54H4-11[5;11H[?25h[?25la[26;54H5-12[5;12H[?25h[?25ld[26;54H6-13[5;13H[?25h[?25l[26;54H7-14[5;14H[?25h[?25l-[26;54H8-15[5;15H[?25h[?25l[38;5;130m-n[m[26;54H9-16[5;16H[?25h[?25l[26;54H10-17[5;17H[?25h[?25l[31m2[m[26;55H1-18[5;18H[?25h[?25l[26;55H2-19[5;19H[?25h[?25l$[26;55H3-20[5;20H[?25h[?25l[35m$f[m[26;55H4-21[5;21H[?25h[?25l[35mi[m[26;55H5-22[5;22H[?25h[?25l[35ml[m[26;55H6-23[5;23H[?25h[?25l[35me[m[26;55H7-24[5;24H[?25h[?25l[35mn[m[26;55H8-25[5;25H[?25h[?25l[35ma[m[26;55H9-26[5;26H[?25h[?25l[35mm[m[26;54H20-27[5;27H[?25h[?25l[35me[m[26;55H1-28[5;28H[?25h[?25l[26;55H2-29[5;29H[?25h[?25l
+        [6;9H[K[26;52H6,2-9  [6;9H[?25h[?25l[26;54H1  [6;1H[?25h[?25ld[26;54H2[6;2H[?25h[?25l[38;5;130mdo[m[26;54H3[6;3H[?25h[?25ldon[26;54H4[6;4H[?25h[?25l[38;5;130mdone[m[26;54H5[6;5H[?25h[26;1H[K[6;4H[?25l[26;42H^[[6;4H[26;42H  [6;5H[26;52H6,4[11CAll[6;4H[?25h[?25l[26;42H:[6;4H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"forloop.sh" [New] 6L, 89B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh forloop.sh 
+[?2004lbasilisk.dat
+Vamsi
+Krishna
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat basilisk.dat 
+[?2004lVamsi
+Krishna
+Busa
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat basilisk.dat [3Psh forloop.sh[C
+[?2004lbasilisk.dat
+Vamsi
+Krishna
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh forloop.sh [3@cat basilisk.dat[C[3Psh forloop.sh[C[1Pvi forloop.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"forloop.sh" 6L, 89B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfor[m filename [38;5;130min[m basilisk.dat[2;29H[K[3;1H[38;5;130mdo[m  [3;5H[K[4;9H[38;5;130mecho[m[31m [m[35m$filename[m[5;9Hhead [38;5;130m-n[m [31m2[m [35m$filename[m
+[38;5;130mdone[m
+[94m~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H6,4[11CAll[6;4H[?25h[?12$p[?25l[26;42Hi[6;4H[26;42H [6;4H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H6,4[11CAll[6;4H[?25h[?25l[26;52H5,1[5;1H[?25h[?25l[26;54H2-9[5;9H[?25h[?25l[26;54H3-10[5;10H[?25h[?25l[26;54H4-11[5;11H[?25h[?25l[26;54H5-12[5;12H[?25h[?25l[26;54H6-13[5;13H[?25h[?25l[26;54H7-14[5;14H[?25h[?25l[26;54H8-15[5;15H[?25h[?25l[26;54H9-16[5;16H[?25h[?25l[26;54H10-17[5;17H[?25h[?25l[26;55H1-18[5;18H[?25h[?25l[26;55H2-19[5;19H[?25h[?25l[26;55H3-20[5;20H[?25h[?25l[26;55H4-21[5;21H[?25h[?25l[26;55H5-22[5;22H[?25h[?25l[26;55H6-23[5;23H[?25h[?25l[26;55H7-24[5;24H[?25h[?25l[26;55H8-25[5;25H[?25h[?25l[26;55H9-26[5;26H[?25h[?25l[26;54H20-27[5;27H[?25h[?25l e[26;55H1-28[5;28H[?25h[?25l[35me[m [26;55H0-27[5;27H[?25h[?25l[26;55H1-28[5;28H[?25h[?25l[26;55H2-29[5;29H[?25h[?25l[38;5;130m|[m[26;55H3-30[5;30H[?25h[?25l[26;55H4-31[5;31H[?25h[?25lt[26;55H5-32[5;32H[?25h[?25la[26;55H6-33[5;33H[?25h[?25li[26;55H7-34[5;34H[?25h[?25l[38;5;130mtail[m[26;55H8-35[5;35H[?25h[?25l[26;55H9-36[5;36H[?25h[?25ln[26;54H30-37[5;37H[?25h[?25l[26;55H1-38[5;38H[?25h[?25l[31m1[m[26;55H2-39[5;39H[?25h[?25l[26;52H6,5    [6;5H[?25h[?25l[26;52H5,32-39[5;39H[?25h[?25l[26;55H1-38[5;38H[?25h[?25l[26;55H0-37[5;37H[?25h[?25l[26;54H29-36[5;36H[?25h[?25l[38;5;130m-n[m [31m1[m[26;54H30-37[5;37H[?25h[26;1H[K[5;36H[?25l[26;42H^[[5;36H[26;42H  [5;37H[26;52H5,29-36[7CAll[5;36H[?25h[?25l[26;42H:[5;36H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"forloop.sh" 6L, 101B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh forloop.sh 
+[?2004lbasilisk.dat
+Krishna
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H#[1;1H[26;1H[97m[41mE348: No string under cursor[m[26;42H[K[1;1H[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H![1;1H[?25h[?25l[26;43H/[1;1H[26;1H[K[26;1H/[?25hi[?25l[49C0,0-1[9CAll[26;52H[K[26;3H[?25h[?25l[26;2H[K[26;52H0,0-1[9CAll[26;52H[K[26;2H[?25h [?25l[1;1H[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;52H[K[26;52H0,1[11CAll[1;1H[?25h[?25l[34m#[m[26;52H1,2[1;2H[?25h[?25l[34m![m[26;54H3[1;3H[?25h[?25l[34m/[m[26;54H4[1;4H[?25h[?25l[34mb[m[26;54H5[1;5H[?25h[?25l[34mi[m[26;54H6[1;6H[?25h[?25l[34mn[m[26;54H7[1;7H[?25h[?25l[34m/[m[26;54H8[1;8H[?25h[?25l[34mb[m[26;54H9[1;9H[?25h[?25l[34ma[m[26;54H10[1;10H[?25h[?25l[34ms[m[26;55H1[1;11H[?25h[?25l[34mh[m[26;55H2[1;12H[?25h[?25l[2;1H[K[26;52H2,1 [2;1H[?25h[?25l[26;54H2[2;2H[?25h[?25lf[26;54H3[2;3H[?25h[?25lr[26;54H4[2;4H[?25h[?25l[2;3H[K[26;54H3[2;3H[?25h[?25l[2;2H[K[26;54H2[2;2H[?25h[?25l[26;54H1[2;1H[?25h[?25lf[26;54H2[2;2H[?25h[?25lo[26;54H3[2;3H[?25h[?25l[38;5;130mfor[m[26;54H4[2;4H[?25h[?25l[26;54H5[2;5H[?25h[?25ll[26;54H6[2;6H[?25h[?25l[2;5H[K[26;54H5[2;5H[?25h[?25lx[26;54H6[2;6H[?25h[?25l[26;54H7[2;7H[?25h[?25li[26;54H8[2;8H[?25h[?25l[38;5;130min[m[26;54H9[2;9H[?25h[?25l[26;54H10[2;10H[?25h[?25l[31m0[m[26;55H1[2;11H[?25h[?25l[26;55H2[2;12H[?25h[?25l[31m1[m[26;55H3[2;13H[?25h[?25l[26;55H4[2;14H[?25h[?25l[31m2[m[26;55H5[2;15H[?25h[?25l[26;55H6[2;16H[?25h[?25l[31m3[m[26;55H7[2;17H[?25h[?25l[26;55H8[2;18H[?25h[?25l[31m4[m[26;55H9[2;19H[?25h[?25l[26;54H20[2;20H[?25h[?25l[31m5[m[26;55H1[2;21H[?25h[?25l[26;55H2[2;22H[?25h[?25l[31m6[m[26;55H3[2;23H[?25h[?25l[26;55H4[2;24H[?25h[?25l[31m7[m[26;55H5[2;25H[?25h[?25l[26;55H6[2;26H[?25h[?25l[26;55H7[2;27H[?25h[?25l[31m8[m[26;55H8[2;28H[?25h[?25l[2;27H[K[26;55H7[2;27H[?25h[?25l[26;55H6[2;26H[?25h[?25l[31m8[m[26;55H7[2;27H[?25h[?25l[26;55H8[2;28H[?25h[?25l[31m9[m[26;55H9[2;29H[?25h[?25l[26;54H30[2;30H[?25h[?25l
+        [3;9H[K[26;52H3,2-9[3;9H[?25h[?25l[26;54H1  [3;1H[?25h[?25ld[26;54H2[3;2H[?25h[?25l[38;5;130mdo[m[26;54H3[3;3H[?25h[?25l[26;54H4[3;4H[?25h[?25l
+        [4;9H[K[26;52H4,2-9[4;9H[?25h[?25le[26;54H3-10[4;10H[?25h[?25lc[26;54H4-11[4;11H[?25h[?25lh[26;54H5-12[4;12H[?25h[?25l[38;5;130mecho[m[26;54H6-13[4;13H[?25h[?25l[31m [m[26;54H7-14[4;14H[?25h[?25l[31m$[m[26;54H8-15[4;15H[?25h[?25l[35m$x[m[26;54H9-16[4;16H[?25h[?25l
+        [5;9H[K[26;52H5,2-9 [5;9H[?25h[?25l[26;54H1  [5;1H[?25h[?25ld[26;54H2[5;2H[?25h[?25l[38;5;130mdo[m[26;54H3[5;3H[?25h[?25ldon[26;54H4[5;4H[?25h[?25l[38;5;130mdone[m[26;54H5[5;5H[?25h[26;1H[K[5;4H[?25l[26;42H^[[5;4H[26;42H  [5;5H[26;52H5,4[11CAll[5;4H[?25h[?25l[26;42H:[5;4H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.sh" [New] 5L, 60B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh numbers.
+[?2004lsh: 0: cannot open numbers.: No such file
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh numbers.sh
+[?2004l0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers." [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers." [New] 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv   final.txt   numbers.     [0m[01;34mthesis[0m
+basilisk.dat  forloop.sh  numbers.sh   [01;34mwriting[0m
+cubane.pdb    length.txt  numbers.txt
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# rm -rf numbers.
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv   cubane.pdb  forloop.sh  numbers.sh   [0m[01;34mthesis[0m
+basilisk.dat  final.txt   length.txt  numbers.txt  [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.sh" 5L, 60B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfor[m x [38;5;130min[m [31m0[m [31m1[m [31m2[m [31m3[m [31m4[m [31m5[m [31m6[m [31m7[m [31m8[m [31m9[m [2;30H[K[3;1H[38;5;130mdo[m [3;4H[K[4;9H[38;5;130mecho[m[31m [m[35m$x[m
+[38;5;130mdone[m
+[94m~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H5,4[11CAll[5;4H[?25h[?25l[26;42H^[[5;4H[26;44H[[5;4H[26;45H>[5;4H[26;46H0[5;4H[26;47H;[5;4H[26;48H1[5;4H[26;49H0[5;4H[26;50H;[5;4H[26;42H         [5;4H[?12$p[?25h[?25l[26;42Hi[5;4H[26;42H [5;4H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H5,4[11CAll[5;4H[?25h[?25l[26;54H5[5;5H[?25h[?25l[26;52H4,1[4;1H[?25h[?25l[26;54H2[4;2H[?25h[?25l[26;54H3[4;3H[?25h[?25l[26;54H4[4;4H[?25h[?25l[26;54H5[4;5H[?25h[?25l[26;54H6[4;6H[?25h[?25l[26;54H7[4;7H[?25h[?25l[26;54H8[4;8H[?25h[?25l         [38;5;130mecho[m[31m [m[35m$x[m[26;54H9[4;9H[?25h[?25l[26;54H10[4;10H[?25h[?25l[26;55H1[4;11H[?25h[?25l[26;55H2[4;12H[?25h[?25l[26;55H3[4;13H[?25h[?25l[26;55H4[4;14H[?25h[?25l[26;55H5[4;15H[?25h[?25l[26;55H6[4;16H[?25h[?25l         [38;5;130mecho[m[31m [m[35m$x[m[26;55H7[4;17H[?25h[?25l[26;55H8[4;18H[?25h[?25l[26;55H9[4;19H[?25h[?25l[26;55H8[4;18H[?25h[?25l[26;55H7[4;17H[?25h[?25l[38;5;130mecho[m[31m [m[35m$x[m[4;25H[K[26;55H6[4;16H[?25h[?25l[26;55H5[4;15H[?25h[?25l[26;55H4[4;14H[?25h[?25l[26;55H3[4;13H[?25h[?25l[26;55H2[4;12H[?25h[?25l[26;55H1[4;11H[?25h[?25l[26;55H0[4;10H[?25h[?25l[38;5;130mecho[m[31m [m[35m$x[m[4;17H[K[4;10H[?25h[?25l[26;55H1[4;11H[?25h[?25l[26;55H2[4;12H[?25h[?25l[26;55H3[4;13H[?25h[?25l[26;55H4[4;14H[?25h[?25l[26;55H5[4;15H[?25h[?25l[26;55H6[4;16H[?25h[?25l[26;55H7[4;17H[?25h[?25l[5;25r[5;1H[L[1;26r[26;52H[K[26;52H5,3-10[8CAll[5;10H[?25h[?25lc[26;54H4-11[5;11H[?25h[?25la[26;54H5-12[5;12H[?25h[?25l[38;5;130mcat[m[26;54H6-13[5;13H[?25h[?25l[26;54H7-14[5;14H[?25h[?25l$[26;54H8-15[5;15H[?25h[?25l[35m$x[m[26;54H9-16[5;16H[?25h[?25l[26;54H10-17[5;17H[?25h[?25l[38;5;130m>[m[26;55H1-18[5;18H[?25h[?25l[26;55H2-19[5;19H[?25h[?25ln[26;55H3-20[5;20H[?25h[?25lu[26;55H4-21[5;21H[?25h[?25lm[26;55H5-22[5;22H[?25h[?25lb[26;55H6-23[5;23H[?25h[?25le[26;55H7-24[5;24H[?25h[?25lr[26;55H8-25[5;25H[?25h[?25ls[26;55H9-26[5;26H[?25h[?25l.[26;54H20-27[5;27H[?25h[?25lt[26;55H1-28[5;28H[?25h[?25lx[26;55H2-29[5;29H[?25h[?25lt[26;55H3-30[5;30H[?25h[26;1H[K[5;29H[?25l[26;42H^[[5;29H[26;42H  [5;30H[26;52H5,22-29[7CAll[5;29H[?25h[?25l[26;42H:[5;29H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.sh" 6L, 91B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.shls[Krm -rf numbers.ls[K[K[Ksh numbers.
+[?2004lsh: 0: cannot open numbers.: No such file
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh numbers.sh
+[?2004l0
+cat: 0: No such file or directory
+1
+cat: 1: No such file or directory
+2
+cat: 2: No such file or directory
+3
+cat: 3: No such file or directory
+4
+cat: 4: No such file or directory
+5
+cat: 5: No such file or directory
+6
+cat: 6: No such file or directory
+7
+cat: 7: No such file or directory
+8
+cat: 8: No such file or directory
+9
+cat: 9: No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.txt" 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.txt[1Psh numbers.sh[Ksh
+[?2004l0
+cat: 0: No such file or directory
+1
+cat: 1: No such file or directory
+2
+cat: 2: No such file or directory
+3
+cat: 3: No such file or directory
+4
+cat: 4: No such file or directory
+5
+cat: 5: No such file or directory
+6
+cat: 6: No such file or directory
+7
+cat: 7: No such file or directory
+8
+cat: 8: No such file or directory
+9
+cat: 9: No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat numbers.sh 
+[?2004l#!/bin/bash
+for x in 0 1 2 3 4 5 6 7 8 9 
+do 
+         echo $x
+	 cat $x > numbers.txt
+done
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv   cubane.pdb  forloop.sh  numbers.sh   [0m[01;34mthesis[0m
+basilisk.dat  final.txt   length.txt  numbers.txt  [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# lscat numbers.sh [2Psh numbers.shcat numbers.sh [2Psh numbers.shvi numbers.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.txt" 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numeer[K[K[Kbers.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.sh" 6L, 91B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfor[m x [38;5;130min[m [31m0[m [31m1[m [31m2[m [31m3[m [31m4[m [31m5[m [31m6[m [31m7[m [31m8[m [31m9[m [2;30H[K[3;1H[38;5;130mdo[m [3;4H[K[4;10H[38;5;130mecho[m[31m [m[35m$x[m[5;10H[38;5;130mcat[m [35m$x[m [38;5;130m>[m numbers.txt
+[38;5;130mdone[m
+[94m~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H5,22-29[7CAll[5;29H[?25h[?12$p[?25l[26;42Ho[5;29H[26;42H [6;10H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H6,3-10[8CTop[6;25r[6;1H[L[1;26r[26;52H[K[26;52H6,3-10[8CAll[6;10H[?25h[?25li[26;54H4-11[6;11H[?25h[?25l[6;10H[K[26;54H3-10[6;10H[?25h[?25l[26;54H2-9 [6;9H[?25h[?25l[26;54H1  [6;1H[?25h[?25l[5;25r[25;1H
+[1;26r[5;10H[38;5;130mcat[m [35m$x[m [38;5;130m>[m numbers.txt[25;1H[94m~                                                                    [m[26;52H[K[26;52H5,23-30[7CAll[5;30H[?25h[?25l[26;52H4,17   [4;17H[?25h[?25l[4;25r[25;1H
+[1;26r[4;10H[38;5;130mecho[m[31m [m[35m$x[m[31m         cat [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt[25;1H[94m~                                                                    [m[26;52H[K[26;52H4,17[10CAll[4;17H[?25h[?25l[1C[31mcat[m[1C[35m$x[m[1C[38;5;130m>[m numbers.txt[4;38H[K[4;17H[?25h[?25l[35mcat[m[31m [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt[4;37H[K[4;17H[?25h[?25l[35mat[m[31m [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt[4;36H[K[4;17H[?25h[?25l[35mt[m[31m [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt[4;35H[K[4;17H[?25h[?25l[31m [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt[4;34H[K[4;17H[?25h[?25l[35m$x[m[31m [m[38;5;130m>[m numbers.txt[4;33H[K[4;17H[?25h[?25l[35mx[m[31m [m[38;5;130m>[m numbers.txt[4;32H[K[4;17H[?25h[?25l[31m [m[38;5;130m>[m numbers.txt[4;31H[K[4;17H[?25h[26;1H[K[4;16H[?25l[26;42H^[[4;16H[26;42H  [4;17H[26;52H4,16[10CAll[4;16H[?25h[?25l[26;42H:[4;16H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.sh" 5L, 82B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.shtxtls[Kcat numbers.sh [2Psh numbers.sh
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv   cubane.pdb  forloop.sh  numbers.sh   [0m[01;34mthesis[0m
+basilisk.dat  final.txt   length.txt  numbers.txt  [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat numbers.txt
+[?2004l9
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat numbers.txtls[Ksh numbers.shvi[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.sh" 5L, 82B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfor[m x [38;5;130min[m [31m0[m [31m1[m [31m2[m [31m3[m [31m4[m [31m5[m [31m6[m [31m7[m [31m8[m [31m9[m [2;30H[K[3;1H[38;5;130mdo[m [3;4H[K[4;10H[38;5;130mecho[m[31m [m[35m$x[m[31m [m[38;5;130m>[m numbers.txt
+[38;5;130mdone[m
+[94m~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H4,16[10CAll[4;16H[?25h[?25l[26;42H^[[4;16H[26;44H[[4;16H[26;45H>[4;16H[26;46H0[4;16H[26;47H;[4;16H[26;48H1[4;16H[26;49H0[4;16H[26;50H;[4;16H[26;42H         [4;16H[?12$p[?25h[?25l[26;42Hi[4;16H[26;42H [4;16H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H4,16[10CAll[4;16H[?25h[?25l[26;55H7[4;17H[?25h[?25l[35mi[m[31m [m[38;5;130m>[m numbers.txt[26;55H8[4;18H[?25h[?25l[31m [m[38;5;130m>[m numbers.txt[4;31H[K[26;55H7[4;17H[?25h[?25l[1C[31m [m[38;5;130m>[m numbers.txt[26;55H8[4;18H[?25h[?25l[38;5;130m>[m [38;5;130m>[m numbers.txt[26;55H9[4;19H[?25h[26;1H[K[4;18H[?25l[26;42H^[[4;18H[26;42H  [4;19H[26;52H4,18[10CAll[4;18H[?25h[?25l[26;42H:[4;18H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.sh" 5L, 84B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.shcat numbers.txtls[Ksh numbers.sh
+[?2004lnumbers.sh: 4: Syntax error: redirection unexpected
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh numbers.shvi[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"numbers.sh" 5L, 84B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfor[m x [38;5;130min[m [31m0[m [31m1[m [31m2[m [31m3[m [31m4[m [31m5[m [31m6[m [31m7[m [31m8[m [31m9[m [2;30H[K[3;1H[38;5;130mdo[m [3;4H[K[4;10H[38;5;130mecho[m[31m [m[35m$x[m[31m [m[38;5;130m>[m [38;5;130m>[m numbers.txt
+[38;5;130mdone[m
+[94m~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H4,18[10CAll[4;18H[?25h[?25l[26;42H^[[4;18H[26;44H[[4;18H[26;45H>[4;18H[26;46H0[4;18H[26;47H;[4;18H[26;48H1[4;18H[26;49H0[4;18H[26;50H;[4;18H[26;42H         [4;18H[?12$p[?25h[?25l[26;42H~@k[4;18H[26;42H   [4;19H[26;55H9[4;19H[?25h[?25l[26;42H~@k[4;19H[26;42H   [4;19H[26;42Hdl[4;19H[26;42H  [4;19H[38;5;130m>[m numbers.txt[4;32H[K[4;19H[?25h[?25l[26;42H^[[4;19H[26;42H  [4;19H[26;42H^[[4;19H[26;42H  [4;19H[?25h[?25l[26;42H:[4;19H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"numbers.sh" 5L, 83B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi numbers.shsh[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi[K[Kcat numbers.
+[?2004lcat: numbers.: No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat numbers.sh
+[?2004l#!/bin/bash
+for x in 0 1 2 3 4 5 6 7 8 9 
+do 
+         echo $x >> numbers.txt
+done
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# i[Kcat numbers.txt 
+[?2004l9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004lanimals.csv   cubane.pdb  forloop.sh  numbers.sh   [0m[01;34mthesis[0m
+basilisk.dat  final.txt   length.txt  numbers.txt  [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# c[Kvi red dragon.ba[K[Kdat
+[?2004l2 files to edit
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"red" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"red" [New] 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi purple unicorn.dat
+[?2004l2 files to edit
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"purple" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"purple" [New] 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# for [K[K[K[Kvi[Ki files.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"files.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[26;42Hf[1;1H[?25h[?25l[26;43Ho[1;1H[26;42H  [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;13H[K[26;52H0,1[11CAll[1;1H[?25h[?25lf[26;52H1,2[1;2H[?25h[?25lo[26;54H3[1;3H[?25h[?25l[38;5;130mfor[m[26;54H4[1;4H[?25h[?25l[26;54H5[1;5H[?25h[?25lf[26;54H6[1;6H[?25h[?25l[97m[101mfi[m[26;54H7[1;7H[?25h[?25lfil[26;54H8[1;8H[?25h[?25le[26;54H9[1;9H[?25h[?25ln[26;54H10[1;10H[?25h[?25lm[26;55H1[1;11H[?25h[?25la[26;55H2[1;12H[?25h[?25le[26;55H3[1;13H[?25h[?25l[1;12H[K[26;55H2[1;12H[?25h[?25l[1;11H[K[26;55H1[1;11H[?25h[?25l[1;10H[K[26;55H0[1;10H[?25h[?25la[26;55H1[1;11H[?25h[?25lm[26;55H2[1;12H[?25h[?25le[26;55H3[1;13H[?25h[?25l[26;55H4[1;14H[?25h[?25li[26;55H5[1;15H[?25h[?25l[38;5;130min[m[26;55H6[1;16H[?25h[?25l[26;55H7[1;17H[?25h[?25l[38;5;130m"[m[26;55H8[1;18H[?25h[?25l[31mr[m[26;55H9[1;19H[?25h[?25l[31me[m[26;54H20[1;20H[?25h[?25l[31md[m[26;55H1[1;21H[?25h[?25l[31m [m[26;55H2[1;22H[?25h[?25l[31md[m[26;55H3[1;23H[?25h[?25l[31mr[m[26;55H4[1;24H[?25h[?25l[31ma[m[26;55H5[1;25H[?25h[?25l[31mg[m[26;55H6[1;26H[?25h[?25l[31mo[m[26;55H7[1;27H[?25h[?25l[31mn[m[26;55H8[1;28H[?25h[?25l[31m.[m[26;55H9[1;29H[?25h[?25l[31md[m[26;54H30[1;30H[?25h[?25l[31ma[m[26;55H1[1;31H[?25h[?25l[31mt[m[26;55H2[1;32H[?25h[?25l[31m [m[26;55H3[1;33H[?25h[?25l[1;32H[K[26;55H2[1;32H[?25h[?25l[38;5;130m"[m[26;55H3[1;33H[?25h[?25l[26;55H4[1;34H[?25h[?25l[35m{[m[26;55H5[1;35H[?25h[?25l[1;34H[K[26;55H4[1;34H[?25h[?25l[38;5;130m"[m[26;55H5[1;35H[?25h[?25l[31mp[m[26;55H6[1;36H[?25h[?25l[31mu[m[26;55H7[1;37H[?25h[?25l[31mr[m[26;55H8[1;38H[?25h[?25l[31mp[m[26;55H9[1;39H[?25h[?25l[31ml[m[26;54H40[1;40H[?25h[?25l[31me[m[26;55H1[1;41H[?25h[?25l[31m [m[26;55H2[1;42H[?25h[?25l[31mu[m[26;55H3[1;43H[?25h[?25l[31mn[m[26;55H4[1;44H[?25h[?25l[31mi[m[26;55H5[1;45H[?25h[?25l[31mc[m[26;55H6[1;46H[?25h[?25l[31mo[m[26;55H7[1;47H[?25h[?25l[31mr[m[26;55H8[1;48H[?25h[?25l[31mn[m[26;55H9[1;49H[?25h[?25l[31m.[m[26;54H50[1;50H[?25h[?25l[31md[m[26;55H1[1;51H[?25h[?25l[31ma[m[26;55H2[1;52H[?25h[?25l[31mt[m[26;55H3[1;53H[?25h[?25l[38;5;130m"[m[26;55H4[1;54H[?25h[?25l
+        [2;9H[K[26;52H2,2-9[2;9H[?25h[?25l[26;54H1  [2;1H[?25h[?25ld[26;54H2[2;2H[?25h[?25l[38;5;130mdo[m[26;54H3[2;3H[?25h[?25l
+        [3;9H[K[26;52H3,2-9[3;9H[?25h[?25l[26;54H1  [3;1H[?25h[?25l[26;54H2[3;2H[?25h[?25lh[26;54H3[3;3H[?25h[?25le[26;54H4[3;4H[?25h[?25la[26;54H5[3;5H[?25h[?25ld[26;54H6[3;6H[?25h[?25l[26;54H7[3;7H[?25h[?25l-[26;54H8[3;8H[?25h[?25l[38;5;130m-n[m[26;54H9[3;9H[?25h[?25l[26;54H10[3;10H[?25h[?25l[31m1[m[26;55H1[3;11H[?25h[?25l[31m0[m[26;55H2[3;12H[?25h[?25l[26;55H3[3;13H[?25h[?25l[38;5;130m"[m[26;55H4[3;14H[?25h[?25l[31m$[m[26;55H5[3;15H[?25h[?25l[35m$f[m[26;55H6[3;16H[?25h[?25l[35mi[m[26;55H7[3;17H[?25h[?25l[35ml[m[26;55H8[3;18H[?25h[?25l[35me[m[26;55H9[3;19H[?25h[?25l[35mn[m[26;54H20[3;20H[?25h[?25l[35ma[m[26;55H1[3;21H[?25h[?25l[35mm[m[26;55H2[3;22H[?25h[?25l[35me[m[26;55H3[3;23H[?25h[?25l[38;5;130m"[m[26;55H4[3;24H[?25h[?25l[26;55H5[3;25H[?25h[?25l[38;5;130m|[m[26;55H6[3;26H[?25h[?25l[26;55H7[3;27H[?25h[?25lt[26;55H8[3;28H[?25h[?25la[26;55H9[3;29H[?25h[?25li[26;54H30[3;30H[?25h[?25l[38;5;130mtail[m[26;55H1[3;31H[?25h[?25l[26;55H2[3;32H[?25h[?25l-[26;55H3[3;33H[?25h[?25l[38;5;130m-n[m[26;55H4[3;34H[?25h[?25l[26;55H5[3;35H[?25h[?25l[31m2[m[26;55H6[3;36H[?25h[?25l[31m0[m[26;55H7[3;37H[?25h[?25l
+ [4;2H[K[26;52H4,2 [4;2H[?25h[?25l[26;54H1[4;1H[?25h[?25ld[26;54H2[4;2H[?25h[?25l[38;5;130mdo[m[26;54H3[4;3H[?25h[?25ldon[26;54H4[4;4H[?25h[?25l[38;5;130mdone[m[26;54H5[4;5H[?25h[?25l[26;54H6[4;6H[?25h[26;1H[K[4;5H[?25l[26;42H^[[4;5H[26;42H  [4;6H[26;52H4,5[11CAll[4;5H[?25h[?25l[26;42H:[4;5H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"files.sh" [New] 4L, 100B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh files.sh 
+[?2004lhead: cannot open 'red dragon.dat' for reading: No such file or directory
+head: cannot open 'purple unicorn.dat' for reading: No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh files.sh [1Pvi files.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"files.sh" 4L, 100B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[38;5;130mfor[m filename [38;5;130min[m [38;5;130m"[m[31mred dragon.dat[m[38;5;130m"[m [38;5;130m"[m[31mpurple unicorn.dat[m[38;5;130m"
+do[m[2;3H[K[3;1H head [38;5;130m-n[m [31m10[m [38;5;130m"[m[35m$filename[m[38;5;130m"[m [38;5;130m|[m [38;5;130mtail[m [38;5;130m-n[m [31m20[m[3;37H[K[4;1H[38;5;130mdone[m
+[94m~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H4,5[11CAll[4;5H[?25h[?25l[26;42H^[[4;5H[26;44H[[4;5H[26;45H>[4;5H[26;46H0[4;5H[26;47H;[4;5H[26;48H1[4;5H[26;49H0[4;5H[26;50H;[4;5H[26;42H         [4;5H[?12$p[?25h[?25l[26;42H^[[4;5H[26;42H  [4;5H[26;42H^[[4;5H[26;42H  [4;5H[?25h[?25l[26;42H:[4;5H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"files.sh" 4L, 100B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi files.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"files.sh" 4L, 100B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[38;5;130mfor[m filename [38;5;130min[m [38;5;130m"[m[31mred dragon.dat[m[38;5;130m"[m [38;5;130m"[m[31mpurple unicorn.dat[m[38;5;130m"
+do[m[2;3H[K[3;1H head [38;5;130m-n[m [31m10[m [38;5;130m"[m[35m$filename[m[38;5;130m"[m [38;5;130m|[m [38;5;130mtail[m [38;5;130m-n[m [31m20[m[3;37H[K[4;1H[38;5;130mdone[m
+[94m~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H4,5[11CAll[4;5H[?25h[?25l[26;42H^[[4;5H[26;44H[[4;5H[26;45H>[4;5H[26;46H0[4;5H[26;47H;[4;5H[26;48H1[4;5H[26;49H0[4;5H[26;50H;[4;5H[26;42H         [4;5H[?12$p[?25h[?25l[26;42H~@k[4;5H[26;42H   [4;5H[?25h[?25l[26;42Hi[4;5H[26;42H [4;5H[26;1H[1m-- INSERT --[m[26;13H[K[26;52H4,5[11CAll[4;5H[?25h[?25l[26;52H3[3;5H[?25h[?25l[26;52H2,3[2;3H[?25h[?25l[26;52H3,5[3;5H[?25h[?25l[26;54H6[3;6H[?25h[?25l[26;54H7[3;7H[?25h[?25l[26;54H8[3;8H[?25h[?25l[26;54H9[3;9H[?25h[?25l[26;54H10[3;10H[?25h[?25l[26;55H1[3;11H[?25h[?25l[26;55H2[3;12H[?25h[?25l[26;55H3[3;13H[?25h[?25l[26;55H4[3;14H[?25h[?25l[35m$filename[m[38;5;130m"[m[31m | tail -n 20[m[3;36H[K[4;1H[31mdone [m[26;55H3[3;13H[?25h[?25l[26;55H4[3;14H[?25h[?25l[26;55H5[3;15H[?25h[?25l[26;55H6[3;16H[?25h[?25l[26;55H7[3;17H[?25h[?25l[26;55H8[3;18H[?25h[?25l[26;55H9[3;19H[?25h[?25l[26;54H20[3;20H[?25h[?25l[26;55H1[3;21H[?25h[?25l[26;55H2[3;22H[?25h[?25l[26;55H3[3;23H[?25h[?25l [38;5;130m|[m [38;5;130mtail[m [38;5;130m-n[m [31m20[m[3;35H[K[4;1H[38;5;130mdone[m [26;55H2[3;22H[?25h[26;1H[K[3;21H[?25l[26;42H^[[3;21H[26;42H  [3;22H[26;52H3,21[10CAll[3;21H[?25h[?25l[26;42H:[3;21H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"files.sh" 4L, 98B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi files.shsh files.sh 
+[?2004lhead: cannot open 'dragon.dat' for reading: No such file or directory
+==> red <==
+head: cannot open 'unicorn.dat' for reading: No such file or directory
+==> purple <==
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd [K[K[Kls
+[?2004lanimals.csv   files.sh    length.txt   purple  [0m[01;34mwriting[0m
+basilisk.dat  final.txt   numbers.sh   red
+cubane.pdb    forloop.sh  numbers.txt  [01;34mthesis[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# mkdir alkames[K[K[Knes
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd alkames[K[K[Knes
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# vi middles[K.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"middle.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;1H[1m-- INSERT --[m[26;13H[K[26;52H0,1[11CAll[1;1HATOM     [?25h[?25l [31m9[m  H[11C[31m1[m      [31m-4[m.[31m502[m  [?25h[?25l [31m0[m.[31m681[m   [31m0[m.[31m785[m  [?25h[?25l[31m1[m.[31m00[m  [31m0[m.[31m00[m
+ATO[2;4H[K[2;4H[?25h[?25lM     [31m10[m  H[10C[?25h[?25l [31m1[m      [31m-5[m.[31m254[m  [?25h[?25l[31m-0[m.[31m243[m  [31m-0[m.[31m537[m  [31m1[m.[31m00[m  [31m0[m.[?25h[?25l[31m00[m
+ATOM     [31m11[m  H  [3;17H[K[3;17H[?25h[?25l[9C[31m1[m      [31m-4[m.[31m357[m   [31m1[m.[31m252[m  [?25h[?25l[31m-0[m.[31m895[m  [31m1[m.[31m00[m  [31m0[m.[31m00[m
+ATO[4;4H[K[4;4H[?25h[?25lM     [31m12[m  H[11C[31m1[m      [31m-3[m.[31m009[m  [31m-0[m.[31m741[m  [31m-1[m.[31m467[m  [31m1[m.[?25h[?25l[31m00[m  [31m0[m.[31m00[m
+ATOM     [31m13[m  H           [31m1[m      [31m-3[m.[31m172[m  [31m-1[m.[31m337[m   [5;50H[K[5;50H[?25h[?25l[26;1H[K[5;50H[31m0[m.[31m206[m  [31m1[m.[31m00[m  [31m0[m.[31m00[m[26;52H5,66[10CAll[5;66H[?25h[?25l[26;42H^[[5;66H[26;42H  [5;66H[26;42H^[[5;66H[26;42H  [5;66H[?25h[?25l[26;42H:[5;66H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"middle.sh" [New] 5L, 335B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# heas [K[Kd -n 5 o[Kmiddle.sh | tail - n1[K 1
+[?2004lATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# head -n 5 middle.sh | tail -n 1[K2
+[?2004lATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# sh middle.sh 
+[?2004lmiddle.sh: 1: ATOM: not found
+middle.sh: 2: ATOM: not found
+middle.sh: 3: ATOM: not found
+middle.sh: 4: ATOM: not found
+middle.sh: 5: ATOM: not found
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cat middle.sh middle.sh [K[K[K[K[K[K[K[K[K[K[K
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# head -n 5 middels[K[K[Kles[K.sh | tail - n 2
+[?2004lATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# history
+[?2004l    1  exit
+    2  ls
+    3  ks
+    4  pwd
+    5  ls
+    6  ls -F
+    7  ls --help
+    8  ls
+    9  whoiam
+   10  exit
+   11  sudo apt-get install git
+   12  script -a ~/my_unix_session.txt
+   13  ls
+   14  script -a ~/my_unix_session.txt
+   15  ls
+   16  cd exercise-data/
+   17  ls
+   18  vi quotes.txt
+   19  ls
+   20  cd thesis/
+   21  ls
+   22  vi quotations.txt
+   23  ls
+   24  cd ..
+   25  ls
+   26  vi quotes.txt 
+   27  cp quotes.txt thesis/quotations.txt 
+   28  ls
+   29  cd thesis/
+   30  ls
+   31  cat quotations.txt 
+   32  ls
+   33  cd ..
+   34  ls
+   35  cp -r thesis thesis_backup
+   36  ls
+   37  cat thesis_backup/
+   38  cd thesis_backup/
+   39  ls
+   40  cd ..
+   41  ls
+   42  cat quotes.txt 
+   43  mv quotes.txt quotations.txt
+   44  ls
+   45  rm quotations.txt 
+   46  ls
+   47  rm -r thesis_backup/
+   48  ls
+   49  vi cubane.pdb
+   50  wc cubane.pdb 
+   51  wc *.pdb
+   52  wc -l *.pdb
+   53  wc -1 *.pdb > length.txt
+   54  wc -l1 *.pdb > length.txt
+   55  wc -l *.pdb > length.txt
+   56  ls
+   57  cat length.txt 
+   58  sort -n length.txt 
+   59  vi numbers.txt
+   60  sort -n numbers.txt 
+   61  vi animals.csv
+   62  cat animals.csv | head -n 5 | tail -n 3 | sort -r > final.txt
+   63  cat final.txt 
+   64  cd..
+   65  ls
+   66  cd ..
+   67  ls
+   68  exit
+   69  ls
+   70  exit
+   71  ls
+   72  cat my_unix_session.txt 
+   73  ls
+   74  whoami
+   75  cd exercise-data/
+   76  ls
+   77  vi basilisk.dat
+   78  head -n 5 basilisk.dat 
+   79  vi forloop.sh
+   80  sh forloop.sh 
+   81  cat basilisk.dat 
+   82  sh forloop.sh 
+   83  vi forloop.sh
+   84  sh forloop.sh 
+   85  vi numbers.sh
+   86  sh numbers.
+   87  sh numbers.sh
+   88  vi numbers.
+   89  ls
+   90  rm -rf numbers.
+   91  ls
+   92  vi numbers.sh
+   93  sh numbers.
+   94  sh numbers.sh
+   95  vi numbers.txt
+   96  sh numbers.sh
+   97  cat numbers.sh 
+   98  ls
+   99  vi numbers.txt
+  100  vi numbers.sh
+  101  sh numbers.sh
+  102  ls
+  103  cat numbers.txt
+  104  vi numbers.sh
+  105  sh numbers.sh
+  106  vi numbers.sh
+  107  sh numbers.sh
+  108  cat numbers.
+  109  cat numbers.sh
+  110  cat numbers.txt 
+  111  ls
+  112  vi red dragon.dat
+  113  vi purple unicorn.dat
+  114  vi files.sh
+  115  sh files.sh 
+  116  vi files.sh
+  117  sh files.sh 
+  118  ls
+  119  mkdir alkanes
+  120  cd alkanes
+  121  vi middle.sh
+  122  head -n 5 middle.sh | tail -n 1
+  123  head -n 5 middle.sh | tail -n 2
+  124  sh middle.sh 
+  125  cat middle.sh
+  126  head -n 5 middle.sh | tail -n 2
+  127  history
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# vi recent.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"recent.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"recent.sh" [New] 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# history | tail -n 5 > recent .sh
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# ca [Kt recent.sh 
+[?2004l  125  cat middle.sh
+  126  head -n 5 middle.sh | tail -n 2
+  127  history
+  128  vi recent.sh
+  129  history | tail -n 5 > recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# head -n $2
+[?2004lhead: option requires an argument -- 'n'
+Try 'head --help' for more information.
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# head -n $2[K0
+[?2004lhead: invalid number of lines: ‘bash’
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# ls
+[?2004lmiddle.sh  recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.txt  [01;34mthesis[0m
+animals.csv   files.sh    length.txt  purple       [01;34mwriting[0m
+basilisk.dat  final.txt   numbers.sh  red
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi longest.sh
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"longest.sh" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H0,1[11CAll[1;1H[?25h[?25lw[26;52H1,2[1;2H[?25h[?25lc[26;54H3[1;3H[?25h[?25l[26;54H4[1;4H[?25h[?25l-[26;54H5[1;5H[?25h[?25l[35m-l[m[26;54H6[1;6H[?25h[?25l[26;54H7[1;7H[?25h[?25l$[26;54H8[1;8H[?25h[?25l[35m$1[m[26;54H9[1;9H[?25h[?25l/[26;54H10[1;10H[?25h[?25l*[26;55H1[1;11H[?25h[?25l.[26;55H2[1;12H[?25h[?25l$[26;55H3[1;13H[?25h[?25l[35m$2[m[26;55H4[1;14H[?25h[?25l[26;55H5[1;15H[?25h[?25l|[26;55H6[1;16H[?25h[?25l[26;55H7[1;17H[?25h[?25ls[26;55H8[1;18H[?25h[?25lo[26;55H9[1;19H[?25h[?25lr[26;54H20[1;20H[?25h[?25l[38;5;130msort[m[26;55H1[1;21H[?25h[?25l[26;55H2[1;22H[?25h[?25l-[26;55H3[1;23H[?25h[?25l[35m-n[m[26;55H4[1;24H[?25h[?25l[26;55H5[1;25H[?25h[?25l|[26;55H6[1;26H[?25h[?25l[26;55H7[1;27H[?25h[?25lt[26;55H8[1;28H[?25h[?25la[26;55H9[1;29H[?25h[?25li[26;54H30[1;30H[?25h[?25l[38;5;130mtail[m[26;55H1[1;31H[?25h[?25l[26;55H2[1;32H[?25h[?25l-[26;55H3[1;33H[?25h[?25l[35m-n[m[26;55H4[1;34H[?25h[?25l[26;55H5[1;35H[?25h[?25l[31m2[m[26;55H6[1;36H[?25h[?25l[26;55H7[1;37H[?25h[?25l|[26;55H8[1;38H[?25h[?25l[26;55H9[1;39H[?25h[?25lh[26;54H40[1;40H[?25h[?25le[26;55H1[1;41H[?25h[?25la[26;55H2[1;42H[?25h[?25ld[26;55H3[1;43H[?25h[?25l[26;55H4[1;44H[?25h[?25l-[26;55H5[1;45H[?25h[?25l[35m-n[m[26;55H6[1;46H[?25h[?25l[26;55H7[1;47H[?25h[?25l[31m1[m[26;55H8[1;48H[?25h[26;1H[K[1;47H[?25l[26;42H^[[1;47H[26;42H  [1;48H[26;52H1,47[10CAll[1;47H[?25h[?25l[26;42H:[1;47H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"longest.sh" [New] 1L, 48B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# bash lo[K[K[K[K[K[K[Kls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd writing/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/writingroot@TIGER03680:~/exercise-data/writing# ls
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/writingroot@TIGER03680:~/exercise-data/writing# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd [K[K[Kcat fi
+[?2004lcat: fi: No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat final.txt
+[?2004l2012-11-06,rabbit,19
+2012-11-06,deer,2
+2012-11-05,raccoon,7
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cat final.txt[K[K[K[K[K[K[K[K[K[K longest.sh
+[?2004lwc -l $1/*.$2 | sort -n | tail -n 2 | head -n 1
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd alkanes/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# ls
+[?2004lmiddle.sh  recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# v[Kcat rev[Kcent.sh 
+[?2004l  125  cat middle.sh
+  126  head -n 5 middle.sh | tail -n 2
+  127  history
+  128  vi recent.sh
+  129  history | tail -n 5 > recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cat recent.sh [1P[1P[1@v[1@i
+[?2004lCommand 'vit' not found, but can be installed with:
+apt install vit
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# vit recent.sh [1P[1@w[1@q[1P[1P
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"recent.sh" 5L, 134B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;3H[31m125[m  [38;5;130mcat[m middle.sh
+  [31m126[m  head [35m-n[m [31m5[m middle.sh | [38;5;130mtail[m [35m-n[m [31m2[m[2;39H[K[3;1H  [31m127[m  [38;5;130mhistory[m[3;15H[K[4;3H[31m128[m  vi recent.sh
+  [31m129[m  [38;5;130mhistory[m | [38;5;130mtail[m [35m-n[m [31m5[m [38;5;130m>[m recent.sh
+[94m~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H1,1[11CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H~@k[1;1H[26;42H   [1;1H[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[26;4H[K[26;4H[?25h[?25l[26;3H[K[26;3H[?25h[?25l[26;2H[K[26;2H[?25h [?25l[1;1H[26;52H1,1[11CAll[1;1H[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;52H[K[26;52H1,1[11CAll[1;1H[?25h[?25l[26;52H2[2;1H[?25h[?25l[26;52H3[3;1H[?25h[?25l[26;52H4[4;1H[?25h[?25l[26;52H5[5;1H[?25h[?25l[26;54H2[5;2H[?25h[?25l[26;54H3[5;3H[?25h[?25l[26;54H4[5;4H[?25h[?25l[26;54H5[5;5H[?25h[?25l[26;54H6[5;6H[?25h[?25l[26;54H7[5;7H[?25h[?25l[26;54H8[5;8H[?25h[?25l[26;54H9[5;9H[?25h[?25l[26;54H10[5;10H[?25h[?25l[26;55H1[5;11H[?25h[?25l[26;55H2[5;12H[?25h[?25l[26;55H3[5;13H[?25h[?25l[26;55H4[5;14H[?25h[?25l[26;55H5[5;15H[?25h[?25l[26;55H6[5;16H[?25h[?25l[26;55H7[5;17H[?25h[?25l[26;55H8[5;18H[?25h[?25l[26;55H9[5;19H[?25h[?25l[26;54H20[5;20H[?25h[?25l[26;55H1[5;21H[?25h[?25l[26;55H2[5;22H[?25h[?25l[26;55H3[5;23H[?25h[?25l[26;55H4[5;24H[?25h[?25l[26;55H5[5;25H[?25h[?25l[26;55H6[5;26H[?25h[?25l[26;55H7[5;27H[?25h[?25l [38;5;130m>[m recent.sh[5;38H[K[26;55H6[5;26H[?25h[?25l[31m2[m [38;5;130m>[m recent.sh[26;55H7[5;27H[?25h[?25l [38;5;130m>[m recent.sh[5;38H[K[26;55H6[5;26H[?25h[?25l[31m3[m [38;5;130m>[m recent.sh[26;55H7[5;27H[?25h[?25l[31m0[m [38;5;130m>[m recent.sh[26;55H8[5;28H[?25h[?25l  [38;5;130m>[m recent.sh[26;55H9[5;29H[?25h[?25l[38;5;130m>[m recent.sh[5;40H[K[26;55H8[5;28H[?25h[26;1H[K[5;27H[?25l[26;42H^[[5;27H[26;42H  [5;28H[26;52H5,27[10CAll[5;27H[?25h[?25l[26;42H:[5;27H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"recent.sh" 5L, 135B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cat recent.sh 
+[?2004l  125  cat middle.sh
+  126  head -n 5 middle.sh | tail -n 2
+  127  history
+  128  vi recent.sh
+  129  history | tail -n 30 > recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# sh recent.sh 
+[?2004lrecent.sh: 1: 125: not found
+recent.sh: 2: 126: not found
+recent.sh: 3: 127: not found
+recent.sh: 4: 128: not found
+recent.sh: 5: 129: not found
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# sh recent.sh [1@cat[C[C[C[C[C[C[C[C[C[C[C[1Pvi[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"recent.sh" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42H^[[1;1H[26;42H  [1;1H[26;42H^[[1;1H[26;42H  [1;1H[?25h[?25l[26;42H:[1;1H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"recent.sh" 0L, 0B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# bash long[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ba[K[Ksh longest.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[Kthe[K[K[Kcd thesis/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/thesisroot@TIGER03680:~/exercise-data/thesis# ls
+[?2004lquotations.txt
+[?2004h]0;root@TIGER03680: ~/exercise-data/thesisroot@TIGER03680:~/exercise-data/thesis# cat quotations.txt 
+[?2004lHello Vamsi
+[?2004h]0;root@TIGER03680: ~/exercise-data/thesisroot@TIGER03680:~/exercise-data/thesis# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd writing/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/writingroot@TIGER03680:~/exercise-data/writing# ls
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/writingroot@TIGER03680:~/exercise-data/writing# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd alkanes/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# ls
+[?2004lmiddle.sh  recent.sh
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cat middle.sh 
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;root@TIGER03680: ~/exercise-data/alkanesroot@TIGER03680:~/exercise-data/alkanes# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middles[K.sh
+[?2004lwc: 'alkanes/middle.sh/*.': Not a directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle.sh[K[K[K sh
+[?2004lwc: 'alkanes/middle/*.sh': No such file or directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle sh[K[K[K.sh
+[?2004lwc: 'alkanes/middle.sh/*.': Not a directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc[Kvi longest.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"longest.sh" 1L, 48B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hwc [35m-l[m [35m$1[m/*.[35m$2[m | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m
+[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H1,47[10CAll[1;47H[?25h[?25l[26;42H^[[1;47H[26;44H[[1;47H[26;45H>[1;47H[26;46H0[1;47H[26;47H;[1;47H[26;48H1[1;47H[26;49H0[1;47H[26;50H;[1;47H[26;42H         [1;47H[?12$p[?25h[?25l[26;42Hi[1;47H[26;42H [1;47H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H1,47[10CAll[1;47H[?25h[?25l[26;55H8[1;48H[?25h[?25l[26;55H7[1;47H[?25h[?25l[26;55H6[1;46H[?25h[?25l[26;55H5[1;45H[?25h[?25l[26;55H4[1;44H[?25h[?25l[26;55H3[1;43H[?25h[?25l[26;55H2[1;42H[?25h[?25l[26;55H1[1;41H[?25h[?25l[26;55H0[1;40H[?25h[?25l[26;54H39[1;39H[?25h[?25l[26;55H8[1;38H[?25h[?25l[26;55H7[1;37H[?25h[?25l[26;55H6[1;36H[?25h[?25l[26;55H5[1;35H[?25h[?25l[26;55H4[1;34H[?25h[?25l[26;55H3[1;33H[?25h[?25l[26;55H2[1;32H[?25h[?25l[26;55H1[1;31H[?25h[?25l[26;55H0[1;30H[?25h[?25l[26;54H29[1;29H[?25h[?25l[26;55H8[1;28H[?25h[?25l[26;55H7[1;27H[?25h[?25l[26;55H6[1;26H[?25h[?25l[26;55H5[1;25H[?25h[?25l[26;55H4[1;24H[?25h[?25l[26;55H3[1;23H[?25h[?25l[26;55H2[1;22H[?25h[?25l[26;55H1[1;21H[?25h[?25l[26;55H0[1;20H[?25h[?25l[26;54H19[1;19H[?25h[?25l[26;55H8[1;18H[?25h[?25l[26;55H7[1;17H[?25h[?25l[26;55H6[1;16H[?25h[?25l[26;55H5[1;15H[?25h[?25l[26;55H4[1;14H[?25h[?25l$ | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;47H[K[26;55H3[1;13H[?25h[?25l | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;46H[K[26;55H2[1;12H[?25h[?25ls | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[26;55H3[1;13H[?25h[?25lh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[26;55H4[1;14H[?25h[26;1H[K[1;13H[?25l[26;42H^[[1;13H[26;42H  [1;14H[26;52H1,13[10CAll[1;13H[?25h[?25l[26;42H:[1;13H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"longest.sh" 1L, 48B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi longest.sh sh longest.sh alkanes/middle.sh
+[?2004lwc: 'alkanes/middle.sh/*.sh': Not a directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi longest.sh 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"longest.sh" 1L, 48B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hwc [35m-l[m [35m$1[m/*.sh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m
+[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H1,13[10CAll[1;13H[?25h[?25l[26;42H^[[1;13H[26;44H[[1;13H[26;45H>[1;13H[26;46H0[1;13H[26;47H;[1;13H[26;48H1[1;13H[26;49H0[1;13H[26;50H;[1;13H[26;42H         [1;13H[?12$p[?25h[?25l[26;42Hi[1;13H[26;42H [1;13H[26;1H[1m-- INSERT --[m[26;14H[K[26;52H1,13[10CAll[1;13H[?25h[?25lh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;47H[K[26;55H2[1;12H[?25h[?25lh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;46H[K[26;55H1[1;11H[?25h[?25lh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;45H[K[26;55H0[1;10H[?25h[?25l[35m$h[m | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[26;55H1[1;11H[?25h[?25l[35m2[mh | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[26;55H2[1;12H[?25h[26;1H[K[1;11H[?25l[26;42H^[[1;11H[26;42H  [1;12H[26;52H1,11[10CAll[1;11H[?25h[?25l[26;42H:[1;11H[26;42H[K[26;1H:[?25hwq![?25l[26;4H[K[26;4H[?25h[?25l[26;3H[K[26;3H[?25h[?25l[26;2H[K[26;2H[?25h [?25l[1;11H[26;52H1,11[10CAll[1;11H[?25h[?25l[26;42Hi[1;11H[26;42H [1;11H[26;1H[1m-- INSERT --[m[26;52H[K[26;52H1,11[10CAll[1;11H[?25h[?25l[26;55H2[1;12H[?25h[?25l[26;55H3[1;13H[?25h[?25l | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m[1;46H[K[26;55H2[1;12H[?25h[26;1H[K[1;11H[?25l[26;42H^[[1;11H[26;42H  [1;12H[26;52H1,11[10CAll[1;11H[?25h[?25l[26;42H:[1;11H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"longest.sh" 1L, 46B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi longest.sh [Kvi longest.sh sh longest.sh alkanes/middle.sh
+[?2004lwc: alkanes/middle.sh/: Not a directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle.sh
+[?2004lwc: alkanes/middle.sh/: Not a directory
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# sh longest.sh alkanes/middle.sh[17Pvi longest.sh [Kvi longest.sh alak[K[Kkanes middles[K.sh
+[?2004l3 files to edit
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"longest.sh" 1L, 46B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1Hwc [35m-l[m [35m$1[m/[35m$2[m | [38;5;130msort[m [35m-n[m | [38;5;130mtail[m [35m-n[m [31m2[m | head [35m-n[m [31m1[m
+[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H1,11[10CAll[1;11H[?25h[?25l[26;42H^[[1;11H[26;44H[[1;11H[26;45H>[1;11H[26;46H0[1;11H[26;47H;[1;11H[26;48H1[1;11H[26;49H0[1;11H[26;50H;[1;11H[26;42H         [1;11H[?12$p[?25h[?25l[26;42H^[[1;11H[26;42H  [1;11H[26;42H^[[1;11H[26;42H  [1;11H[?25h[?25l[26;42H:[1;11H[26;1H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"longest.sh" 1L, 46B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi longest.sh alkanes middle.sh[1P[1P[1@s[1@h[C[1@ [1P
+[?2004l5 alkanes/middle.sh
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004l[0m[01;34mexercise-data[0m  my_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# exit
+[?2004lexit
+
+Script done on 2023-04-12 11:52:58+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-04-12 12:13:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="69" LINES="26"]
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004l[0m[01;34mexercise-data[0m  my_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# cd exercise-data/
+[?2004l[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  numbers.sh   red
+animals.csv   files.sh    length.txt  numbers.txt  [01;34mthesis[0m
+basilisk.dat  final.txt   longest.sh  purple       [01;34mwriting[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# vi haiku,[K.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;26r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[26;1H"haiku.txt" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                    [3;1H~                                                                    [4;1H~                                                                    [5;1H~                                                                    [6;1H~                                                                    [7;1H~                                                                    [8;1H~                                                                    [9;1H~                                                                    [10;1H~                                                                    [11;1H~                                                                    [12;1H~                                                                    [13;1H~                                                                    [14;1H~                                                                    [15;1H~                                                                    [16;1H~                                                                    [17;1H~                                                                    [18;1H~                                                                    [19;1H~                                                                    [20;1H~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [m[26;52H0,0-1[9CAll[1;1H[?25h[?25l[26;42H^[[1;1H[26;44H[[1;1H[26;45H>[1;1H[26;46H0[1;1H[26;47H;[1;1H[26;48H1[1;1H[26;49H0[1;1H[26;50H;[1;1H[26;42H         [1;1H[?12$p[?25h[?25l[26;42Hi[1;1H[26;42H [1;1H[26;1H[1m-- INSERT --[m[26;13H[K[26;52H0,1[11CAll[1;1H[?25h[?25lThe Tao tha[?25h[?25lt is see[?25h[?25ln
+Is no[2;6H[K[2;6H[?25h[?25lt the true Tao,[?25h[?25l until
+Y[3;2H[K[3;2H[?25h[?25lou brin[?25h[?25lg fresh toner.[4;1H[K[5;1H[K[5;1H[?25h[?25lWith searching [?25h[?25lcomes lo[?25h[?25lss
+and t[6;6H[K[6;6H[?25h[?25lhe prese[?25h[?25lnce of absence:[?25h[?25l
+"My Thesis"[7;12H[K[7;12H[?25h[?25l not fou[?25h[?25lnd.[8;1H[K[9;1HYe[9;3H[K[9;3H[?25h[?25lsterday [?25h[?25lit worke[?25h[?25ld
+Today[10;6H[K[10;6H[?25h[?25l it is n[?25h[?25lot worki[?25h[?25lng
+Soft[11;5H[K[11;5H[?25h[?25lware is like that.[26;52H11,23[11;23H[?25h[26;1H[K[11;22H[?25l[26;42H^[[11;22H[26;42H  [11;23H[26;52H11,22[9CAll[11;22H[?25h[?25l[26;42H:[11;22H[26;42H[K[26;1H:[?25hwq![?25l[?2004l[>4;m"haiku.txt" [New] 11L, 218B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep not haiku.txt
+[?2004lIs [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep The haiku.txt
+[?2004l[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep -w "is nor[Kt" haiku.txt
+[?2004lToday it [01;31m[Kis not[m[K working
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep -n -w "the" haiku.txt
+[?2004l[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep -n -w -v "the" hailu[K[Kku.txt
+[?2004l[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep -n -w -v "the" haiku.txt[1@-[1@i[1@ 
+[?2004l[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# grep -E "^.o" haiku.txt
+[?2004l[01;31m[KYo[m[Ku bring fresh toner.
+[01;31m[KTo[m[Kday it is not working
+[01;31m[KSo[m[Kftware is like that.
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# wc -l $(find . -name "*.txt")
+[?2004l 11 ./haiku.txt
+  1 ./thesis/quotations.txt
+  3 ./final.txt
+  1 ./length.txt
+ 11 ./numbers.txt
+ 27 total
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# ls
+[?2004l[0m[01;34malkanes[0m       cubane.pdb  forloop.sh  longest.sh   purple  [01;34mwriting[0m
+animals.csv   files.sh    haiku.txt   numbers.sh   red
+basilisk.dat  final.txt   length.txt  numbers.txt  [01;34mthesis[0m
+[?2004h]0;root@TIGER03680: ~/exercise-dataroot@TIGER03680:~/exercise-data# cd ..
+[?2004l[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# ls
+[?2004l[0m[01;34mexercise-data[0m  my_unix_session.txt
+[?2004h]0;root@TIGER03680: ~root@TIGER03680:~# exit
+[?2004lexit
+
+Script done on 2023-04-12 12:24:50+05:30 [COMMAND_EXIT_CODE="0"]
